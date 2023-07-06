@@ -1,7 +1,13 @@
+import Header from '../components/Header'
+
+import home from '../assets/home.svg'
 
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <>
+      <Header title="Meu site" image={home} />
+      <h1>Home</h1>
+    </> 
   )
 }
 

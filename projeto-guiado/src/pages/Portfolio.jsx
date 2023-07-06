@@ -1,7 +1,12 @@
+import Header from '../components/Header'
+import portfolio from '../assets/portfolio.svg'
 
 const Portfolio = () => {
   return (
-    <h1>Portfolio</h1>
+    <>
+      <Header title="Meu portfolio" image={portfolio} />
+      <h1>Portfolio</h1>
+    </> 
   )
 }
 

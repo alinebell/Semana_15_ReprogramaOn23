@@ -1,7 +1,13 @@
+import Header from '../components/Header'
+import sobre from '../assets/sobre.svg'
 
 const Sobre = () => {
   return (
-    <h1>Sobre</h1>
+    <>
+      <Header title="Sobre mim" image={sobre} />
+      <h1>Sobre</h1>
+    </> 
+    
   )
 }
 

@@ -6,16 +6,16 @@ const Menu = () => {
   return (
     <nav className={styles.menuContainer}>
             <li>
-                <Link to="/">Home</Link>
+                <Link className={styles.menuLink} to="/">Home</Link>
             </li>
             <li>
-                <Link to="/sobre">Sobre</Link>
+                <Link className={styles.menuLink} to="/sobre">Sobre</Link>
             </li>
             <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link className={styles.menuLink} to="/portfolio">Portfolio</Link>
             </li>
             <li>
-                <Link to="/contato">Contato</Link>
+                <Link className={styles.menuLink} to="/contato">Contato</Link>
             </li>
     </nav>
   )
